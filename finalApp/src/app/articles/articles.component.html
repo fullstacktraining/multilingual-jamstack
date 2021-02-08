@@ -1,0 +1,83 @@
+<div class="px-6 py-8">
+  <div class="flex justify-between container mx-auto">
+    <div class="w-full">
+      <div class="flex items-center justify-between">
+        <h1 class="text-gray-700" i18n="@@articlesIntro">
+          Please read the latest posts from our travellers around the globe.
+        </h1>
+      </div>
+      <div class="mt-6" *ngFor="let article of articles">
+        <div class="max-w-6xl px-10 py-6 bg-white rounded-lg shadow-md">
+          <div class="mt-2">
+            <a
+              routerLink="{{ article.slug }}"
+              class="text-2xl text-gray-700 font-bold hover:underline"
+              >{{ article.name }}</a
+            >
+            <p class="mt-2 text-gray-600">{{ article.content.teaser_text }}</p>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <a
+              routerLink="{{ article.slug }}"
+              class="text-blue-500 hover:underline"
+              i18n="@@articleReadMore"
+              >Read more</a
+            >
+            <div>
+              <img
+                [src]="loadImage(article.content.author_image)"
+                alt="Author Avatar"
+                class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+              />
+              <h1 class="text-gray-700 font-bold">
+                {{ article.content.author }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="px-6 py-8">
+  <div class="flex justify-between container mx-auto">
+    <div class="w-full">
+      <div class="flex items-center justify-between">
+        <h1 class="text-gray-700" i18n="@@articlesIntro">
+          Please read the latest posts from our travellers around the globe.
+        </h1>
+      </div>
+      <div class="mt-6" *ngFor="let article of articles">
+        <div class="max-w-6xl px-10 py-6 bg-white rounded-lg shadow-md">
+          <div class="mt-2">
+            <a
+              routerLink="{{ article.slug }}"
+              class="text-2xl text-gray-700 font-bold hover:underline"
+              >{{ article.name }}</a
+            >
+            <p class="mt-2 text-gray-600">{{ article.content.teaser_text }}</p>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <a
+              routerLink="{{ article.slug }}"
+              class="text-blue-500 hover:underline"
+              i18n="@@articleReadMore"
+              >Read more</a
+            >
+            <div>
+              <img
+                [src]="loadImage(article.content.author_image)"
+                alt="Author Avatar"
+                class="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+              />
+              <h1 class="text-gray-700 font-bold">
+                {{ article.content.author }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

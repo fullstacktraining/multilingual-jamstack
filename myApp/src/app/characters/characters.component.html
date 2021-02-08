@@ -1,0 +1,27 @@
+<div class="border-b border-grey-light p-4 bg-grey-lighter py-8">
+  <div class="bg-white mx-auto shadow-lg rounded-lg overflow-hidden">
+    <div class="sm:flex sm:items-center px-2 py-4">
+      <div class="flex-grow">
+        <h3 class="font-normal px-2 py-3 leading-tight">Characters</h3>
+        <div class="w-full">
+          <div
+            *ngFor="let character of characters"
+            class="flex cursor-pointer my-1 hover:bg-blue-100 rounded"
+          >
+            <div class="w-3/5 h-10 py-3 px-1">
+              <p class="hover:text-blue-dark">{{ character.name }}</p>
+            </div>
+            <div class="w-1/5 h-10 text-right p-3">
+              <p class="text-sm text-grey-dark">{{ character.alliance }}</p>
+            </div>
+            <div class="w-1/5 h-10 text-right p-3">
+              <p class="text-sm text-grey-dark">
+                <a routerLink="{{ character._id }}">Learn more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

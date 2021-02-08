@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="allRightsReserved" datatype="html">
+        <source>All rights reserved</source>
+        <target>Todos los derechos reservados</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="articlesLink" datatype="html">
+        <source>Articles</source>
+        <target>Artículos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lang-selector/lang-selector.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutLink" datatype="html">
+        <source>About us</source>
+        <target>Sobre nosotros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lang-selector/lang-selector.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="selectALanguage" datatype="html">
+        <source> Select a language </source>
+        <target> Seleccionar un idioma </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lang-selector/lang-selector.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heroCountry" datatype="html">
+        <source>Country</source>
+        <target>País</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heroRegion" datatype="html">
+        <source>Region</source>
+         <target>Región</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="heroDescription" datatype="html">
+        <source> Medellín is the second largest city in Colombia. It has over 3 million people and is the capital of the department of Antioquia. It&apos;s set in a valley running south to north just under one hour by plane from Bogotá. In 2013 Medellin was awarded the Innovative City of the Year by The Wall Street Journal, outranking rivals New York and Tel Aviv. </source>
+        <target>Medellín es la capital del departamento de Antioquia, situada en el noroccidente de Colombia, en el centro del Valle de Aburrá y a orillas del río Medellín. Cuenta, según los datos del censo de 2005, con una población de 2.223.078 habitantes, lo que la convierte en la segunda ciudad más poblada de Colombia. Por su parte, el Área Metropolitana de la ciudad, conformada por otros 9 municipios, tiene una población de 3.312.165 habitantes, siendo ésta la segunda aglomeración urbana de Colombia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">25,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="readMoreHero" datatype="html">
+        <source> read more </source>
+        <target> leer más </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="articlesIntro" datatype="html">
+        <source> Please read the latest posts from our travellers around the globe. </source>
+        <target> Lea las últimas publicaciones de nuestros viajeros de todo el mundo.  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="articleReadMore" datatype="html">
+        <source>Read more</source>
+        <target>Leer más</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/articles/articles.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
