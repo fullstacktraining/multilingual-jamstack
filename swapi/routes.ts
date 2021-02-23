@@ -1,5 +1,5 @@
 import { RouterContext } from 'https://deno.land/x/oak@v6.5.0/router.ts';
-import ICharacter from 'src/app/icharacter';
+import ICharacter from './icharacter.ts';
 import { characters } from './characters.ts';
 
 export const routes = {
